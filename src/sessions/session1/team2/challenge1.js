@@ -1,6 +1,6 @@
 // Challenge Number 1
 //
-// Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+// Welcome. In this challenge, you are asked to square every digit of a number and concatenate them.
 //
 // For example, if we run 9119 through the function, 811181 will come out, because 9ˆ2 is 81 and 1ˆ2 is 1.
 //
@@ -25,4 +25,5 @@ if (import.meta.vitest) {
     it("squareDigits(0) should equal 0", () => {
         expect(squareDigits(0)).toBe(0);
     });
+
 }
